@@ -1,0 +1,39 @@
+<resources>
+    <!-- Primary App Colors -->
+    <color name="primary">#6200EE</color>
+    <color name="primaryDark">#3700B3</color>
+    <color name="accent">#03DAC5</color>
+
+    <!-- Neutral Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="gray_light">#E0E0E0</color>
+    <color name="gray_dark">#757575</color>
+
+    <!-- Feedback Colors -->
+    <color name="error">#B00020</color>
+    <color name="success">#4CAF50</color>
+    <color name="warning">#FFC107</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="red">#FF0000</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FAFAFA</color>
+    <color name="surface">#FFFFFF</color>
+
+    <!-- Button Colors -->
+    <color name="button_text">#FFFFFF</color>
+    <color name="button_disabled">#BDBDBD</color>
+
+    <!--theme    -->
+    <color name="purple_200">#BB86FC</color>
+    <color name="teal_700">#018786</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="teal_200">#03DAC5</color>
+
+</resources>
+

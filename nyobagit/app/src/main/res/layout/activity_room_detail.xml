@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Room Name -->
+        <TextView
+            android:id="@+id/tv_room_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/room_detail"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp"
+            android:gravity="center" />
+
+        <!-- Room Location -->
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Location: "
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Room Capacity -->
+        <TextView
+            android:id="@+id/tv_capacity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Capacity: "
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Room Price -->
+        <TextView
+            android:id="@+id/tv_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Price: "
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Room Status -->
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: "
+            android:textSize="18sp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Reserve Button -->
+        <Button
+            android:id="@+id/btn_reserve"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reserve"
+            android:backgroundTint="@color/primary"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:padding="12dp" />
+
+    </LinearLayout>
+</ScrollView>
+

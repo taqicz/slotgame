@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Tema Utama Aplikasi -->
+    <style name="Theme.Roomreservation" parent="Theme.Material3.DayNight">
+        <!-- Warna Utama -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Konfigurasi Elemen UI -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="android:windowBackground">@color/white</item>
+    </style>
+
+    <!-- Tema untuk SplashScreen -->
+    <style name="Theme.Roomreservation.Splash" parent="Theme.Material3.DayNight">
+        <item name="android:windowBackground">@drawable/splash_screen_background</item>
+    </style>
+
+</resources>
