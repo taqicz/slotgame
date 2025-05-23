@@ -28,6 +28,11 @@
             android:exported="false">
         </activity>
         <activity
+            android:name=".ListMahasiswaActivity"
+            android:exported="false"/>
+        <activity android:name=".EditMahasiswaActivity"
+            android:exported="false"/>
+        <activity
             android:name=".model.AddMahasiswaResponse"
             android:exported="false">
         </activity>

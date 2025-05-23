@@ -42,8 +42,7 @@ public class MainActivity extends AppCompatActivity {
             addDataMahasiswa();
         });
         btnListData.setOnClickListener(view -> {
-            Intent intent = new Intent(MainActivity.this,
-                    SearchMahasiswaActivity.class);
+            Intent intent = new Intent(MainActivity.this, ListMahasiswaActivity.class);
             startActivity(intent);
         });
     }
