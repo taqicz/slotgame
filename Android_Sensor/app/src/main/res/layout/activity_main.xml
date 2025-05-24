@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FAFAFA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Informasi Lokasi"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Item Lokasi -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp"
+            android:backgroundTint="#FFFFFF"
+            android:clipToPadding="false">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Latitude"
+                android:textColor="#666666"/>
+
+            <TextView
+                android:id="@+id/latitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Longitude"
+                android:textColor="#666666"/>
+
+            <TextView
+                android:id="@+id/longitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Altitude"
+                android:textColor="#666666"/>
+
+            <TextView
+                android:id="@+id/altitude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="12dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Akurasi"
+                android:textColor="#666666"/>
+
+            <TextView
+                android:id="@+id/akurasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@android:color/white"
+            android:padding="16dp"
+            android:layout_marginBottom="20dp"
+            android:elevation="4dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Alamat"
+                android:textColor="#666666"/>
+
+            <TextView
+                android:id="@+id/alamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="..."
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_find"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dapatkan Lokasi"
+            android:textAllCaps="false"
+            android:textColor="@android:color/white"
+            android:backgroundTint="#2196F3"/>
+    </LinearLayout>
+</ScrollView>
